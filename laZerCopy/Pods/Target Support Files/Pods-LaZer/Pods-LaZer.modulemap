@@ -1,0 +1,6 @@
+framework module Pods_LaZer {
+  umbrella header "Pods-LaZer-umbrella.h"
+
+  export *
+  module * { export * }
+}

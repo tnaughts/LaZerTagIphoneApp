@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+project 'LaZer'
+
+target 'LaZer' do
+pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
+
+end
+
