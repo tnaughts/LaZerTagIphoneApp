@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030A238C1D7A25CE00E5A30F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A238B1D7A25CE00E5A30F /* AppDelegate.swift */; };
+		030A238E1D7A25CE00E5A30F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A238D1D7A25CE00E5A30F /* ViewController.swift */; };
+		030A23911D7A25CE00E5A30F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030A238F1D7A25CE00E5A30F /* Main.storyboard */; };
+		030A23941D7A25CE00E5A30F /* LaZer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 030A23921D7A25CE00E5A30F /* LaZer.xcdatamodeld */; };
+		030A23961D7A25CE00E5A30F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030A23951D7A25CE00E5A30F /* Assets.xcassets */; };
+		030A23991D7A25CE00E5A30F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030A23971D7A25CE00E5A30F /* LaunchScreen.storyboard */; };
+		030A23A41D7A25CE00E5A30F /* LaZerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A23A31D7A25CE00E5A30F /* LaZerTests.swift */; };
+		030A23AF1D7A25CE00E5A30F /* LaZerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A23AE1D7A25CE00E5A30F /* LaZerUITests.swift */; };
+		030A23C31D7DC4F600E5A30F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A23C21D7DC4F600E5A30F /* MenuController.swift */; };
+		0918087F1D8230CA0002DF15 /* Recognize.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0918087E1D8230CA0002DF15 /* Recognize.mp3 */; };
+		091808811D8239C70002DF15 /* artwork-source.png in Resources */ = {isa = PBXBuildFile; fileRef = 091808801D8239C70002DF15 /* artwork-source.png */; };
+		09389E351D82145600184D7C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09389E341D82145600184D7C /* StartController.swift */; };
+		095AA6D61D8064CC00AF1224 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 095AA6D51D8064CC00AF1224 /* OpenCVWrapper.mm */; };
+		09BA0DB71D806D060062CC56 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BA0DB61D806D060062CC56 /* opencv2.framework */; };
+		09CEC1731D81BC2800898C02 /* laser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC1721D81BC2800898C02 /* laser.mp3 */; };
+		09CEC1751D81D29900898C02 /* reload.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC1741D81D29900898C02 /* reload.mp3 */; };
+		09CEC1771D81D2C500898C02 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC1761D81D2C500898C02 /* hit.mp3 */; };
+		09CEC17B1D82086600898C02 /* TheGrid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CEC17A1D82086600898C02 /* TheGrid.mp3 */; };
+		2C3B75DF33728FA04E5BC22E /* Pods_LaZer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC43B4CAFA0F23A69BB54A25 /* Pods_LaZer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030A23A01D7A25CE00E5A30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030A23801D7A25CE00E5A30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030A23871D7A25CE00E5A30F;
+			remoteInfo = LaZer;
+		};
+		030A23AB1D7A25CE00E5A30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030A23801D7A25CE00E5A30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030A23871D7A25CE00E5A30F;
+			remoteInfo = LaZer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030A23881D7A25CE00E5A30F /* LaZer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaZer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A238B1D7A25CE00E5A30F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030A238D1D7A25CE00E5A30F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		030A23901D7A25CE00E5A30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030A23931D7A25CE00E5A30F /* LaZer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaZer.xcdatamodel; sourceTree = "<group>"; };
+		030A23951D7A25CE00E5A30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030A23981D7A25CE00E5A30F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030A239A1D7A25CE00E5A30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A239F1D7A25CE00E5A30F /* LaZerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaZerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A23A31D7A25CE00E5A30F /* LaZerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaZerTests.swift; sourceTree = "<group>"; };
+		030A23A51D7A25CE00E5A30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A23AA1D7A25CE00E5A30F /* LaZerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaZerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A23AE1D7A25CE00E5A30F /* LaZerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaZerUITests.swift; sourceTree = "<group>"; };
+		030A23B01D7A25CE00E5A30F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A23C21D7DC4F600E5A30F /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0918087E1D8230CA0002DF15 /* Recognize.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Recognize.mp3; sourceTree = "<group>"; };
+		091808801D8239C70002DF15 /* artwork-source.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "artwork-source.png"; sourceTree = "<group>"; };
+		09389E341D82145600184D7C /* StartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		095AA6D31D8064CB00AF1224 /* LaZer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaZer-Bridging-Header.h"; sourceTree = "<group>"; };
+		095AA6D41D8064CC00AF1224 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		095AA6D51D8064CC00AF1224 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		09BA0DB61D806D060062CC56 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		09CEC1721D81BC2800898C02 /* laser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laser.mp3; sourceTree = "<group>"; };
+		09CEC1741D81D29900898C02 /* reload.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reload.mp3; sourceTree = "<group>"; };
+		09CEC1761D81D2C500898C02 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		09CEC17A1D82086600898C02 /* TheGrid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheGrid.mp3; sourceTree = "<group>"; };
+		2D7353E08E2EE3496F206EE5 /* Pods-LaZer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaZer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaZer/Pods-LaZer.debug.xcconfig"; sourceTree = "<group>"; };
+		631501F43033FD2FDB926DD6 /* Pods-LaZer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaZer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaZer/Pods-LaZer.release.xcconfig"; sourceTree = "<group>"; };
+		CC43B4CAFA0F23A69BB54A25 /* Pods_LaZer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaZer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030A23851D7A25CE00E5A30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BA0DB71D806D060062CC56 /* opencv2.framework in Frameworks */,
+				2C3B75DF33728FA04E5BC22E /* Pods_LaZer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A239C1D7A25CE00E5A30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A23A71D7A25CE00E5A30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030A237F1D7A25CE00E5A30F = {
+			isa = PBXGroup;
+			children = (
+				09CEC17A1D82086600898C02 /* TheGrid.mp3 */,
+				0918087E1D8230CA0002DF15 /* Recognize.mp3 */,
+				09CEC1741D81D29900898C02 /* reload.mp3 */,
+				09CEC1761D81D2C500898C02 /* hit.mp3 */,
+				091808801D8239C70002DF15 /* artwork-source.png */,
+				09CEC1721D81BC2800898C02 /* laser.mp3 */,
+				095AA6D41D8064CC00AF1224 /* OpenCVWrapper.h */,
+				095AA6D51D8064CC00AF1224 /* OpenCVWrapper.mm */,
+				030A238A1D7A25CE00E5A30F /* LaZer */,
+				030A23A21D7A25CE00E5A30F /* LaZerTests */,
+				030A23AD1D7A25CE00E5A30F /* LaZerUITests */,
+				030A23891D7A25CE00E5A30F /* Products */,
+				90F83DED8060A4DB2A94CCAC /* Pods */,
+				31561840A1CA3769D47C593B /* Frameworks */,
+				095AA6D31D8064CB00AF1224 /* LaZer-Bridging-Header.h */,
+				09BA0DB61D806D060062CC56 /* opencv2.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		030A23891D7A25CE00E5A30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030A23881D7A25CE00E5A30F /* LaZer.app */,
+				030A239F1D7A25CE00E5A30F /* LaZerTests.xctest */,
+				030A23AA1D7A25CE00E5A30F /* LaZerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030A238A1D7A25CE00E5A30F /* LaZer */ = {
+			isa = PBXGroup;
+			children = (
+				030A238B1D7A25CE00E5A30F /* AppDelegate.swift */,
+				030A238D1D7A25CE00E5A30F /* ViewController.swift */,
+				030A23C21D7DC4F600E5A30F /* MenuController.swift */,
+				09389E341D82145600184D7C /* StartController.swift */,
+				030A238F1D7A25CE00E5A30F /* Main.storyboard */,
+				030A23951D7A25CE00E5A30F /* Assets.xcassets */,
+				030A23971D7A25CE00E5A30F /* LaunchScreen.storyboard */,
+				030A239A1D7A25CE00E5A30F /* Info.plist */,
+				030A23921D7A25CE00E5A30F /* LaZer.xcdatamodeld */,
+			);
+			path = LaZer;
+			sourceTree = "<group>";
+		};
+		030A23A21D7A25CE00E5A30F /* LaZerTests */ = {
+			isa = PBXGroup;
+			children = (
+				030A23A31D7A25CE00E5A30F /* LaZerTests.swift */,
+				030A23A51D7A25CE00E5A30F /* Info.plist */,
+			);
+			path = LaZerTests;
+			sourceTree = "<group>";
+		};
+		030A23AD1D7A25CE00E5A30F /* LaZerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030A23AE1D7A25CE00E5A30F /* LaZerUITests.swift */,
+				030A23B01D7A25CE00E5A30F /* Info.plist */,
+			);
+			path = LaZerUITests;
+			sourceTree = "<group>";
+		};
+		31561840A1CA3769D47C593B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC43B4CAFA0F23A69BB54A25 /* Pods_LaZer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90F83DED8060A4DB2A94CCAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D7353E08E2EE3496F206EE5 /* Pods-LaZer.debug.xcconfig */,
+				631501F43033FD2FDB926DD6 /* Pods-LaZer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030A23871D7A25CE00E5A30F /* LaZer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A23B31D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZer" */;
+			buildPhases = (
+				9BFD89A6A6ECC8F389AE033C /* [CP] Check Pods Manifest.lock */,
+				030A23841D7A25CE00E5A30F /* Sources */,
+				030A23851D7A25CE00E5A30F /* Frameworks */,
+				030A23861D7A25CE00E5A30F /* Resources */,
+				535DECBB422FEBB754E29D8B /* [CP] Embed Pods Frameworks */,
+				7A3E414259A6BDE870B4A9AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaZer;
+			productName = LaZer;
+			productReference = 030A23881D7A25CE00E5A30F /* LaZer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030A239E1D7A25CE00E5A30F /* LaZerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A23B61D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZerTests" */;
+			buildPhases = (
+				030A239B1D7A25CE00E5A30F /* Sources */,
+				030A239C1D7A25CE00E5A30F /* Frameworks */,
+				030A239D1D7A25CE00E5A30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030A23A11D7A25CE00E5A30F /* PBXTargetDependency */,
+			);
+			name = LaZerTests;
+			productName = LaZerTests;
+			productReference = 030A239F1D7A25CE00E5A30F /* LaZerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030A23A91D7A25CE00E5A30F /* LaZerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A23B91D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZerUITests" */;
+			buildPhases = (
+				030A23A61D7A25CE00E5A30F /* Sources */,
+				030A23A71D7A25CE00E5A30F /* Frameworks */,
+				030A23A81D7A25CE00E5A30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030A23AC1D7A25CE00E5A30F /* PBXTargetDependency */,
+			);
+			name = LaZerUITests;
+			productName = LaZerUITests;
+			productReference = 030A23AA1D7A25CE00E5A30F /* LaZerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030A23801D7A25CE00E5A30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timothy Naughton";
+				TargetAttributes = {
+					030A23871D7A25CE00E5A30F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 92U77LBT4Y;
+					};
+					030A239E1D7A25CE00E5A30F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 030A23871D7A25CE00E5A30F;
+					};
+					030A23A91D7A25CE00E5A30F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 030A23871D7A25CE00E5A30F;
+					};
+				};
+			};
+			buildConfigurationList = 030A23831D7A25CE00E5A30F /* Build configuration list for PBXProject "LaZer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030A237F1D7A25CE00E5A30F;
+			productRefGroup = 030A23891D7A25CE00E5A30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030A23871D7A25CE00E5A30F /* LaZer */,
+				030A239E1D7A25CE00E5A30F /* LaZerTests */,
+				030A23A91D7A25CE00E5A30F /* LaZerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030A23861D7A25CE00E5A30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091808811D8239C70002DF15 /* artwork-source.png in Resources */,
+				09CEC17B1D82086600898C02 /* TheGrid.mp3 in Resources */,
+				0918087F1D8230CA0002DF15 /* Recognize.mp3 in Resources */,
+				09CEC1771D81D2C500898C02 /* hit.mp3 in Resources */,
+				030A23991D7A25CE00E5A30F /* LaunchScreen.storyboard in Resources */,
+				030A23961D7A25CE00E5A30F /* Assets.xcassets in Resources */,
+				09CEC1731D81BC2800898C02 /* laser.mp3 in Resources */,
+				030A23911D7A25CE00E5A30F /* Main.storyboard in Resources */,
+				09CEC1751D81D29900898C02 /* reload.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A239D1D7A25CE00E5A30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A23A81D7A25CE00E5A30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535DECBB422FEBB754E29D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaZer/Pods-LaZer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3E414259A6BDE870B4A9AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaZer/Pods-LaZer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFD89A6A6ECC8F389AE033C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030A23841D7A25CE00E5A30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095AA6D61D8064CC00AF1224 /* OpenCVWrapper.mm in Sources */,
+				030A23C31D7DC4F600E5A30F /* MenuController.swift in Sources */,
+				09389E351D82145600184D7C /* StartController.swift in Sources */,
+				030A238E1D7A25CE00E5A30F /* ViewController.swift in Sources */,
+				030A238C1D7A25CE00E5A30F /* AppDelegate.swift in Sources */,
+				030A23941D7A25CE00E5A30F /* LaZer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A239B1D7A25CE00E5A30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A23A41D7A25CE00E5A30F /* LaZerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A23A61D7A25CE00E5A30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A23AF1D7A25CE00E5A30F /* LaZerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030A23A11D7A25CE00E5A30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030A23871D7A25CE00E5A30F /* LaZer */;
+			targetProxy = 030A23A01D7A25CE00E5A30F /* PBXContainerItemProxy */;
+		};
+		030A23AC1D7A25CE00E5A30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030A23871D7A25CE00E5A30F /* LaZer */;
+			targetProxy = 030A23AB1D7A25CE00E5A30F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030A238F1D7A25CE00E5A30F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030A23901D7A25CE00E5A30F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030A23971D7A25CE00E5A30F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030A23981D7A25CE00E5A30F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030A23B11D7A25CE00E5A30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030A23B21D7A25CE00E5A30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030A23B41D7A25CE00E5A30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7353E08E2EE3496F206EE5 /* Pods-LaZer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LaZer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LaZer2.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LaZer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030A23B51D7A25CE00E5A30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631501F43033FD2FDB926DD6 /* Pods-LaZer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LaZer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LaZer2.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LaZer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		030A23B71D7A25CE00E5A30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaZerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs261.LaZerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaZer.app/LaZer";
+			};
+			name = Debug;
+		};
+		030A23B81D7A25CE00E5A30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaZerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs261.LaZerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaZer.app/LaZer";
+			};
+			name = Release;
+		};
+		030A23BA1D7A25CE00E5A30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaZerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs261.LaZerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaZer;
+			};
+			name = Debug;
+		};
+		030A23BB1D7A25CE00E5A30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaZerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs261.LaZerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaZer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030A23831D7A25CE00E5A30F /* Build configuration list for PBXProject "LaZer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A23B11D7A25CE00E5A30F /* Debug */,
+				030A23B21D7A25CE00E5A30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A23B31D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A23B41D7A25CE00E5A30F /* Debug */,
+				030A23B51D7A25CE00E5A30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A23B61D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A23B71D7A25CE00E5A30F /* Debug */,
+				030A23B81D7A25CE00E5A30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A23B91D7A25CE00E5A30F /* Build configuration list for PBXNativeTarget "LaZerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A23BA1D7A25CE00E5A30F /* Debug */,
+				030A23BB1D7A25CE00E5A30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		030A23921D7A25CE00E5A30F /* LaZer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				030A23931D7A25CE00E5A30F /* LaZer.xcdatamodel */,
+			);
+			currentVersion = 030A23931D7A25CE00E5A30F /* LaZer.xcdatamodel */;
+			path = LaZer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 030A23801D7A25CE00E5A30F /* Project object */;
+}
