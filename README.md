@@ -34,4 +34,16 @@ This image is then sent to the CV algorithim which detects if there was an image
 
 It then registers that as a hit for the appropriate team on the iphone and then sends a Request to the server to update the score.
 
+#Detection Algorithm
+
+![img_proc_gif](add link here)
+1. Grayscale 
+2. Threshold
+3. Detect edges
+4. Make rectangles from contours
+5. Eliminate small and non-square rectangles
+6. Pair remaining rectangles and check that their centers are close, their areas are in a reasonable ratio for desired targets, and one is contained entirely inside the other
+7. Check surronding pixels of inner rectangle of matched pairs for black to veryify target
+8. Check corners of outer rectangle to determine which target was hit
+
 NOTE: The application has not been set up with a Socket and hits the server every 2 seconds to dynamically update the score. This may impact cellular data usage.
