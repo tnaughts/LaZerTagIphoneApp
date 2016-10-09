@@ -12,6 +12,8 @@
 
 ## Basic Methodology
 
+![img_proc_seq](https://cloud.githubusercontent.com/assets/16000804/19224311/fd601ab4-8e48-11e6-9238-27f6cc3a077c.gif)
+
 >Image processing is carried out on the mobile device itself, using functions from the [OpenCV library](opencv.org) and an image captured from the rear facing camera. Images go through the followinig steps in order to locate and recognize targets.
 
 1. Crop image to area around targeting reticule (this enforces aiming constraints and also reduces processing time) - this step is not shown in the sample GIF.
